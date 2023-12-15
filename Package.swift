@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "MBProgressHUD",
+    name: "MBProgressHUDPM",
     products: [
-        .library(name: "MBProgressHUD", targets: ["MBProgressHUD"])
+        .library(name: "MBProgressHUDPM", targets: ["MBProgressHUDPM"])
     ],
     targets: [
         .target(
-            name: "MBProgressHUD",
+            name: "MBProgressHUDPM",
             dependencies: [],
             path: ".",
             exclude: ["Demo"],
